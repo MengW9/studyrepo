@@ -24,11 +24,11 @@ public class SimplePDFReader {
      * @Date： 2019-09-03
      * @Time： 16:17
      */
-    public static String getTextFromPDF(String pdfFilePath) {
+    public static String getTextFromPDF(File file) {
         String result = null;
         PDDocument document = null;
         try {
-            document = PDDocument.load(new File(pdfFilePath));
+            document = PDDocument.load(file);
             PDFTextStripper pts = new PDFTextStripper();
             result = pts.getText(document);
         } catch (IOException e) {
@@ -45,6 +45,14 @@ public class SimplePDFReader {
         return result;
     }
 
+    /**
+     * @Description： 取关键字
+     * @Param： [text]
+     * @return： java.lang.String
+     * @Author： WangMengWei
+     * @Date： 2019-09-05
+     * @Time： 10:01
+     */
     public static String getKeyword(String text) {
         String keyword = "";
         String pattern = "关键词[:|：](.*?)\\n";
