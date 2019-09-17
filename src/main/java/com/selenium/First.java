@@ -14,7 +14,7 @@ import static java.lang.Thread.sleep;
  * @author: WangMengWei
  * @create: 2019-08-08 16:42
  **/
-public class first {
+public class First {
 
     public static void start() {
         //配置ChromeDiver
