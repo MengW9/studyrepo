@@ -22,7 +22,7 @@ public class Department {
         return conn;
     }
 
-    public void insertUrl(aqiHistoricalPO aqiHistoricalPO) throws Exception {
+    public void insertUrl(AqiHistoricalPO aqiHistoricalPO) throws Exception {
         Connection conn = getConnect();
         String sql = "insert into aqi_historicalData (sourceId,cityId,InspectionSiteId,AOI,PM2_5,PM10,checkDate) values (?,?,?,?,?,?,?)";
         PreparedStatement ps = conn.prepareStatement(sql);

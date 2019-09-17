@@ -245,7 +245,7 @@ public class WuHan {
         Department department = new Department();
 
         aqi.forEach((key, value) -> {
-            aqiHistoricalPO aqiHistoricalPO = new aqiHistoricalPO();
+            AqiHistoricalPO aqiHistoricalPO = new AqiHistoricalPO();
             //数据源id
             aqiHistoricalPO.setSourceId(2);
             //城市id

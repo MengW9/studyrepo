@@ -11,7 +11,7 @@ import java.sql.Date;
  * @create: 2019-09-10 13:43
  **/
 @Data
-public class aqiHistoricalPO {
+public class AqiHistoricalPO {
 
     private int sourceId;
 
