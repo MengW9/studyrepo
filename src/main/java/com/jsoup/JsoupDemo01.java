@@ -28,6 +28,10 @@ public class JsoupDemo01 {
 
         Elements elementsByAttribute = postDocument.getElementsByAttribute("");
 
+        String val = getDocument.select("#su").val();
+
+        String su = getDocument.body().getElementById("su").val();
+
 
         String title = getDocument.title();
         System.out.println(getDocument.select("#su").val());
