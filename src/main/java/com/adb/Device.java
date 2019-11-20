@@ -85,7 +85,7 @@ public class Device {
     public JSONObject getDevicesJSONObject() {
         System.out.println("getDevice...");
         JSONObject Dwevices = new JSONObject();
-        ArrayList<String> Request = new AdbRequest().Request("adb devices -l", true);
+        ArrayList<String> Request = new AdbRequest().Request(AdbHome.AdbHome+"adb devices -l", true);
         if (Request.size() > 2) {
             Dwevices.put("ret", "0");
             JSONObject phone = new JSONObject();

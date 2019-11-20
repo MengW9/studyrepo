@@ -3,6 +3,8 @@ package com.fileservice;
 import javax.swing.filechooser.FileSystemView;
 import java.io.File;
 
+//import android.os.Environment;
+
 /**
  * @program: algorithm_demo
  * @description: 查找盘符
@@ -21,14 +23,6 @@ public class SearchDrive {
      */
     public void Search(){
 
-        while (true) {
-
-        }
-
-    }
-
-    public static void main(String[] args) {
-
         FileSystemView sys = FileSystemView.getFileSystemView();
 
         File[] files = File.listRoots();
@@ -37,6 +31,12 @@ public class SearchDrive {
 
             System.out.println(files[i] + " -- " + sys.getSystemTypeDescription(files[i]));
         }
+
+    }
+
+    public static void main(String[] args) {
+
+
 
 //        System.out.println("=====");
 //        File file = new File("此电脑\\honor10\\内部存储");

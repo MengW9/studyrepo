@@ -1,9 +1,9 @@
 package com.adb;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
+import com.alibaba.fastjson.JSONObject;
+
+import java.io.*;
+import java.util.ArrayList;
 
 /**
  * @program: algorithm_demo
@@ -13,16 +13,30 @@ import java.io.InputStreamReader;
  **/
 public class Test {
 
-    public static void main(String[] args) throws IOException {
+    public static void main123() throws Exception {
 //        AdbRequest adbRequest = new AdbRequest();
 //        adbRequest.Request("adb devices -l", true);
-//        Device device = new Device();
-//        device.getDevicesJSONObject();
-
+        Device device = new Device();
+        System.out.println("获取设备信息：");
+        JSONObject devicesJSONObject = device.getDevicesJSONObject();
+        System.out.println(devicesJSONObject);
+        System.out.println("获取设备列表：");
+        ArrayList<Device> device1 = device.getDevice();
+        device1.forEach(f-> System.out.println(f.DEVICEID+"==="+f.DEVICENAME));
+//        System.out.println(device1.toString());
+        System.out.println("设备版本：");
+        TestAdb();
 
     }
 
-    public static void TestAdb(){
+    public static void main(String[] args) {
+        File file = new File("此电脑\\HUAWEI M6\\内部存储\\123.txt");
+        long length = file.length();
+        System.out.println(length);
+    }
+
+
+    private static void TestAdb(){
         String cmd=AdbHome.AdbHome+"adb version";
         Process process;
         try {
