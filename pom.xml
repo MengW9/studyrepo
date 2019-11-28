@@ -13,6 +13,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.1</version>
                 <configuration>
                     <source>8</source>
                     <target>8</target>
@@ -169,11 +170,14 @@
             <artifactId>commons-io</artifactId>
             <version>2.6</version>
         </dependency>
+
+        <!--sqlite依赖-->
         <dependency>
-            <groupId>org.webjars.bower</groupId>
-            <artifactId>github-com-polymer-polymer</artifactId>
-            <version>2.0.0-rc.9</version>
+            <groupId>org.xerial</groupId>
+            <artifactId>sqlite-jdbc</artifactId>
+            <version>3.28.0</version>
         </dependency>
+
 
     </dependencies>
 
