@@ -29,10 +29,16 @@ public class Test {
 
     }
 
-    public static void main(String[] args) {
-        File file = new File("此电脑\\HUAWEI M6\\内部存储\\123.txt");
-        long length = file.length();
-        System.out.println(length);
+    public static void main(String[] args) throws Exception {
+//        File file = new File("此电脑\\HUAWEI M6\\内部存储\\123.txt");
+//        long length = file.length();
+//        System.out.println(length);
+
+        /**
+         * 文件的目录
+         * /data/data/storage/sdcard0/Android/data/uni.UNI11D28C7/apps/__UNI__11D28C7/doc
+         */
+        main123();
     }
 
 

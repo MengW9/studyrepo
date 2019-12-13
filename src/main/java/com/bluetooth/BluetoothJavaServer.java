@@ -57,11 +57,12 @@ public class BluetoothJavaServer {
                         mStreamConnection = mStreamConnectionNotifier.acceptAndOpen();
                         System.out.println("接受连接");
 
-                        //开始读数据
-//                        getData(mStreamConnection);
 
                         //开始发送数据
                         postData(mStreamConnection);
+
+                        //开始读数据
+                        getData(mStreamConnection);
 
                         //关闭流
                         mStreamConnection.close();
