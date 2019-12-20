@@ -132,12 +132,12 @@ public class HttpConnection {
         //存储cookie
         CookieManager cookieManager = new CookieManager();
         CookieHandler.setDefault(cookieManager);
-        /*res = postDownloadJson("http://192.168.8.227:8899/api/v1/login", "name=admin1&pwd=221367c291a8db838b755ac317e04230");
+        res = postDownloadJson("http://192.168.21.23:8080/api/v1/login", "name=admin123&pwd=221367c291a8db838b755ac317e04230");
         System.out.println(res);
-        res = getXpath("http://192.168.8.227:8899/api/v1/comment/query?caseId=341");
-        System.out.println(res);*/
+        res = postDownloadJson("http://192.168.21.23:8080/api/v1/cip/job/fuzzy","keyWords=1&page=1&size=5");
+        System.out.println(res);
 
-        System.out.println(get("https://www.baidu.com"));
+//        System.out.println(get("https://www.baidu.com"));
         //res = postDownloadJson("http://ip.taobao.com/service/getIpInfo.php?ip=63.223.108.42", "123");
         /*System.out.println(res.get("code"));
         System.out.println(res.get("data"));*/

@@ -2,7 +2,10 @@ package com.adb;
 
 import com.alibaba.fastjson.JSONObject;
 
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.util.ArrayList;
 
 /**
@@ -22,10 +25,11 @@ public class Test {
         System.out.println(devicesJSONObject);
         System.out.println("获取设备列表：");
         ArrayList<Device> device1 = device.getDevice();
-        device1.forEach(f-> System.out.println(f.DEVICEID+"==="+f.DEVICENAME));
+        device1.forEach(f -> System.out.println(f.DEVICEID + "===" + f.DEVICENAME));
 //        System.out.println(device1.toString());
         System.out.println("设备版本：");
-        TestAdb();
+//        TestAdb();
+
 
     }
 
@@ -37,29 +41,49 @@ public class Test {
         /**
          * 文件的目录
          * /data/data/storage/sdcard0/Android/data/uni.UNI11D28C7/apps/__UNI__11D28C7/doc
+         * /data/data/storage/sdcard0/Android/data/io.dcloud.HBuilder/apps/HBuilder/doc
+         *
          */
-        main123();
+//        main123();
+
+//        String cmd=AdbHome.AdbHome+"adb version";
+
+//        String cmd=AdbHome.AdbHome+"adb mkdir /data/data/storage/sdcard0/Android/data/io.dcloud.HBuilder/apps/HBuilder/doc/images";
+//        TestAdb(cmd);
+        String cmd12 = AdbHome.AdbHome + "adb devices | findstr \"\\<device\\>\"";
+        String cmd = AdbHome.AdbHome + "adb devices";
+        String string = TestAdb(cmd).replaceAll("List of devices attached","").replaceAll("\n","");
+        if (!string.isEmpty()) {
+            System.out.println("已连接设备，设备名为："+string);
+        }else {
+            System.out.println("未连接设备");
+        }
+//        String cmd123=AdbHome.AdbHome+"adb push D:\\Desktop\\胖菊1.gif /storage/sdcard0/Android/data/io.dcloud.HBuilder/apps/HBuilder/doc/images/胖菊1.gif";
+//        TestAdb(cmd123);
+
     }
 
 
-    private static void TestAdb(){
-        String cmd=AdbHome.AdbHome+"adb version";
+    private static String TestAdb(String cmd) {
         Process process;
         try {
-            process=Runtime.getRuntime().exec(cmd);
-            System.out.println(InputStream2String(process.getInputStream()));
+            process = Runtime.getRuntime().exec(cmd);
+            String string = InputStream2String(process.getInputStream());
+            System.out.print(string);
+            return string;
         } catch (IOException e) {
             e.printStackTrace();
         }
+        return null;
     }
 
-    public static String InputStream2String(InputStream inputStream){
-        String result="";
-        BufferedReader br=new BufferedReader(new InputStreamReader(inputStream));
+    public static String InputStream2String(InputStream inputStream) {
+        String result = "";
+        BufferedReader br = new BufferedReader(new InputStreamReader(inputStream));
         try {
-            String temp="";
-            while ((temp=br.readLine())!=null){
-                result+=temp+"\n";
+            String temp = "";
+            while ((temp = br.readLine()) != null) {
+                result += temp + "\n";
             }
         } catch (IOException e) {
             e.printStackTrace();

@@ -8,6 +8,6 @@ package com.adb;
  **/
 public class AdbHome {
 
-    public static final String AdbHome = "D:/adb/";
+    public static final String AdbHome = "D:\\ProgramFiles\\adb/";
 
 }
