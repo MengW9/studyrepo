@@ -10,7 +10,7 @@ import java.io.InputStream;
 /**
  * @program: algorithm_demo
  * @description: 蓝牙连接PC端代码
- * @author: WangMengWei
+ * @author: mengw9
  * @create: 2019-11-21 16:11
  **/
 public class BTServer implements Runnable {

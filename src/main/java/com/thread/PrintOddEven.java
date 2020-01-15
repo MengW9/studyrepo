@@ -3,7 +3,7 @@ package com.thread;
 /**
  * @program: algorithm_demo
  * @description: 多线程交替打印100
- * @author: WangMengWei
+ * @author: mengw9
  * @create: 2019-09-24 17:08
  **/
 public class PrintOddEven {

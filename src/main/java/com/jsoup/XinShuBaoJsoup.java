@@ -8,7 +8,7 @@ import org.jsoup.select.Elements;
 /**
  * @program: algorithm_demo
  * @description: https://www.xinshubao.net小说
- * @author: WangMengWei
+ * @author: mengw9
  * @create: 2019-10-25 15:27
  **/
 public class XinShuBaoJsoup {

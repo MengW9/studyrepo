@@ -6,7 +6,7 @@ import java.security.cert.X509Certificate;
 
 /**
  * @description: 自定义信任管理器   都为空则表示所有链接都安全
- * @author: WangMengWei
+ * @author: mengw9
  * @create: 2019-08-06 11:50
  **/
 public class MyX509TrustManager implements X509TrustManager {

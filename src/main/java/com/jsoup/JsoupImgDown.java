@@ -13,7 +13,7 @@ import java.net.URLEncoder;
 /**
  * @program: algorithm_demo
  * @description: jsoup图片下载
- * @author: WangMengWei
+ * @author: mengw9
  * @create: 2019-10-24 09:54
  **/
 public class JsoupImgDown {

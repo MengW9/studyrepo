@@ -7,7 +7,7 @@ import java.util.Set;
 /**
  * @program: algorithm_demo
  * @description: 查询设备
- * @author: WangMengWei
+ * @author: mengw9
  * @create: 2019-11-19 09:42
  **/
 

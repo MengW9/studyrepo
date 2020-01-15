@@ -8,7 +8,7 @@ import java.util.ArrayList;
 /**
  * @program: algorithm_demo
  * @description: 实体类
- * @author: WangMengWei
+ * @author: mengw9
  * @create: 2019-11-19 14:30
  **/
 public class Device {

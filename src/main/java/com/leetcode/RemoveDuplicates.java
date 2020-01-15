@@ -7,7 +7,7 @@ import java.util.stream.Collectors;
 /**
  * @program: algorithm_demo
  * @description: 从排序数组种删除重复项
- * @author: WangMengWei
+ * @author: mengw9
  * @create: 2019-10-22 19:02
  **/
 public class RemoveDuplicates {
@@ -19,7 +19,7 @@ public class RemoveDuplicates {
      * @Description： 能够实现，但是不符合题意
      * @Param： [nums]
      * @return： int
-     * @Author： WangMengWei
+     * @Author： mengw9
      * @Date： 2019/10/22
      * @Time： 20:27
      */

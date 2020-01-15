@@ -3,7 +3,7 @@ package com.bluetooth;
 /**
  * @program: algorithm_demo
  * @description:
- * @author: WangMengWei
+ * @author: mengw9
  * @create: 2019-11-21 14:26
  **/
 

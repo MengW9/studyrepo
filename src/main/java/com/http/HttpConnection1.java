@@ -13,7 +13,7 @@ public class HttpConnection1 {
      * @Description： 请求连接   请求类型
      * @Param： [urlParam, requestType]
      * @return： java.lang.String
-     * @Author： WangMengWei
+     * @Author： mengw9
      * @Date： 2019-08-06
      * @Time： 9:07
      */

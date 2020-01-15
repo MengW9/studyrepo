@@ -10,7 +10,7 @@ import net.sourceforge.pinyin4j.format.exception.BadHanyuPinyinOutputFormatCombi
 /**
  * @program: yofc-ipe-root
  * @description: 汉语拼音工具类
- * @author: WangMengWei
+ * @author: mengw9
  * @create: 2019-09-18 16:04
  **/
 public class HanyuPinyinHelp {
@@ -48,7 +48,7 @@ public class HanyuPinyinHelp {
      * @Description： 获取文本拼音  全部小写
      * @Param： [chineseLanguage]
      * @return： java.lang.String
-     * @Author： WangMengWei
+     * @Author： mengw9
      * @Date： 2019-09-18
      * @Time： 16:20
      */
@@ -60,7 +60,7 @@ public class HanyuPinyinHelp {
      * @Description： 获取文本拼音  全部大写
      * @Param： [chineseLanguage]
      * @return： java.lang.String
-     * @Author： WangMengWei
+     * @Author： mengw9
      * @Date： 2019-09-18
      * @Time： 16:21
      */

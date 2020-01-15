@@ -5,7 +5,7 @@ import java.util.*;
 /**
  * @program: algorithm_demo
  * @description: List排序
- * @author: WangMengWei
+ * @author: mengw9
  * @create: 2019-08-29 14:35
  **/
 public class ListSort {

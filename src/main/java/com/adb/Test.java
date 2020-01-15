@@ -11,7 +11,7 @@ import java.util.ArrayList;
 /**
  * @program: algorithm_demo
  * @description:
- * @author: WangMengWei
+ * @author: mengw9
  * @create: 2019-11-19 14:36
  **/
 public class Test {
@@ -50,16 +50,37 @@ public class Test {
 
 //        String cmd=AdbHome.AdbHome+"adb mkdir /data/data/storage/sdcard0/Android/data/io.dcloud.HBuilder/apps/HBuilder/doc/images";
 //        TestAdb(cmd);
-        String cmd12 = AdbHome.AdbHome + "adb devices | findstr \"\\<device\\>\"";
+
+        //测试是否存在设备
+//        String cmd12 = AdbHome.AdbHome + "adb devices | findstr \"\\<device\\>\"";
         String cmd = AdbHome.AdbHome + "adb devices";
-        String string = TestAdb(cmd).replaceAll("List of devices attached","").replaceAll("\n","");
+        String string = TestAdb(cmd).replaceAll("List of devices attached", "").replaceAll("\n", "");
         if (!string.isEmpty()) {
-            System.out.println("已连接设备，设备名为："+string);
-        }else {
+            System.out.println("已连接设备，设备名为：" + string);
+        } else {
             System.out.println("未连接设备");
         }
 //        String cmd123=AdbHome.AdbHome+"adb push D:\\Desktop\\胖菊1.gif /storage/sdcard0/Android/data/io.dcloud.HBuilder/apps/HBuilder/doc/images/胖菊1.gif";
 //        TestAdb(cmd123);
+        //判断是否有这个文件
+//        String cmd = AdbHome.AdbHome + "adb shell ls /storage/sdcard0/Android/data/uni.UNI11D28C7/apps/__UNI__11D28C7/doc/local.db";
+//        String s = TestAdb(cmd);
+//        if (s.contains("/storage/sdcard0/Android/data/uni.UNI11D28C7/apps/__UNI__11D28C7/doc/local.db")){
+//            System.out.println("存在此文件");
+//        }else {
+//            System.out.println("没有此文件");
+//        }
+//        System.out.println(s);
+
+//        String cmd = AdbHome.AdbHome + "adb shell pm list packages";
+//        String s = TestAdb(cmd);
+//        if (s.contains("uni.UNI11D28C7")){
+//            System.out.println("存在此文件");
+//        }else {
+//            System.out.println("没有此文件");
+//        }
+//        System.out.println(s);
+
 
     }
 

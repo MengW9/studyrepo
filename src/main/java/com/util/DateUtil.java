@@ -6,7 +6,7 @@ import java.util.Date;
 /**
  * @program: algorithm_demo
  * @description: 时间转换工具类
- * @author: WangMengWei
+ * @author: mengw9
  * @create: 2019-08-16 15:52
  **/
 public class DateUtil {

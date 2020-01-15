@@ -7,7 +7,7 @@ import com.alibaba.fastjson.JSONArray;
 /**
  * @program: algorithm_demo
  * @description: TODO
- * @author: WangMengWei
+ * @author: mengw9
  * @create: 2019-08-15 18:23
  **/
 public class demo {

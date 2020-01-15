@@ -3,7 +3,7 @@ package com.sort;
 /**
  * @program: algorithm_demo
  * @description: 传说中的睡眠排序
- * @author: WangMengWei
+ * @author: mengw9
  * @create: 2019-09-17 11:37
  **/
 public class ThreadSort {

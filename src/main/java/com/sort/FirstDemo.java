@@ -5,7 +5,7 @@ import java.util.Random;
 /**
  * @program: algorithm_demo
  * @description: 这是一个插入排序的demo
- * @author: WangMengWei
+ * @author: mengw9
  * @create: 2019-07-19 14:29
  **/
 public class FirstDemo {
@@ -13,7 +13,7 @@ public class FirstDemo {
      * @Description： 插入排序：直接插入排序，希尔排序
      * @Param： []
      * @return： void
-     * @Author： WangMengWei
+     * @Author： mengw9
      * @Date： 2019-07-19
      * @Time： 15:26
      */

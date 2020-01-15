@@ -6,7 +6,7 @@ import org.openqa.selenium.WebDriver;
 /**
  * @program: algorithm_demo
  * @description: selenium工具类
- * @author: WangMengWei
+ * @author: mengw9
  * @create: 2019-09-18 15:59
  **/
 public class SeleniumUtils {

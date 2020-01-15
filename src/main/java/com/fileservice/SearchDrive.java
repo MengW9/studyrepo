@@ -8,7 +8,7 @@ import java.io.File;
 /**
  * @program: algorithm_demo
  * @description: 查找盘符
- * @author: WangMengWei
+ * @author: mengw9
  * @create: 2019-11-19 09:57
  **/
 public class SearchDrive {
@@ -17,7 +17,7 @@ public class SearchDrive {
      * @Description： 查找
      * @Param： []
      * @return： void
-     * @Author： WangMengWei
+     * @Author： mengw9
      * @Date： 2019-11-19
      * @Time： 09:58
      */

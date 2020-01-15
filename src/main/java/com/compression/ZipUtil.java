@@ -10,7 +10,7 @@ import java.util.zip.ZipOutputStream;
 /**
  * @program: algorithm_demo
  * @description: TODO
- * @author: WangMengWei
+ * @author: mengw9
  * @create: 2019-09-27 10:37
  **/
 public class ZipUtil {

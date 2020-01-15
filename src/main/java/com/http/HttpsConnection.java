@@ -13,7 +13,7 @@ import java.net.URL;
 /**
  * @program: yofc-pitp-root
  * @description: TODO
- * @author: WangMengWei
+ * @author: mengw9
  * @create: 2019-08-06 11:54
  **/
 public class HttpsConnection {
@@ -22,7 +22,7 @@ public class HttpsConnection {
      * @Description： 处理https  GET/POST请求
      * @Param： [requestUrl, requestMethod, outputStr]  请求地址、请求方法、参数
      * @return： java.lang.String
-     * @Author： WangMengWei
+     * @Author： mengw9
      * @Date： 2019-08-06
      * @Time： 11:56
      */

@@ -11,7 +11,7 @@ import static java.lang.Thread.sleep;
 /**
  * @program: algorithm_demo
  * @description: TODO
- * @author: WangMengWei
+ * @author: mengw9
  * @create: 2019-08-08 16:42
  **/
 public class First {

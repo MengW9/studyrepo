@@ -5,7 +5,7 @@ import java.sql.*;
 /**
  * @program: algorithm_demo
  * @description: 测试Sqlite连接
- * @author: WangMengWei
+ * @author: mengw9
  * @create: 2019-11-27 15:02
  **/
 public class SqliteTest {
@@ -23,7 +23,7 @@ public class SqliteTest {
      * @Description： 获取sqlite数据的连接
      * @Param： []
      * @return： java.sql.Connection
-     * @Author： WangMengWei
+     * @Author： mengw9
      * @Date： 2019-11-27
      * @Time： 16:13
      */
@@ -50,7 +50,7 @@ public class SqliteTest {
      * @Description： 测试sqlite数据库连接
      * @Param： []
      * @return： void
-     * @Author： WangMengWei
+     * @Author： mengw9
      * @Date： 2019-11-27
      * @Time： 15:47
      */
@@ -76,7 +76,7 @@ public class SqliteTest {
      * @Description： 创建表
      * @Param： []
      * @return： void
-     * @Author： WangMengWei
+     * @Author： mengw9
      * @Date： 2019-11-27
      * @Time： 16:05
      */

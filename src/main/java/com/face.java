@@ -7,7 +7,7 @@ import java.util.Scanner;
 /**
  * @program: algorithm_demo
  * @description: 面试题集锦
- * @author: WangMengWei
+ * @author: mengw9
  * @create: 2019-09-24 23:19
  **/
 public class face {

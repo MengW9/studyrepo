@@ -7,7 +7,7 @@ import java.sql.Date;
 /**
  * @program: algorithm_demo
  * @description: 数据库对象
- * @author: WangMengWei
+ * @author: mengw9
  * @create: 2019-09-10 13:43
  **/
 @Data

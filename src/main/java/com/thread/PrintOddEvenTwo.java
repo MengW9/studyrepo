@@ -3,7 +3,7 @@ package com.thread;
 /**
  * @program: algorithm_demo
  * @description: 交替获取锁的方法
- * @author: WangMengWei
+ * @author: mengw9
  * @create: 2019-09-24 18:28
  **/
 public class PrintOddEvenTwo {

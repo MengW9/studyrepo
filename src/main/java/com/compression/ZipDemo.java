@@ -9,7 +9,7 @@ import java.util.zip.ZipOutputStream;
 /**
  * @program: algorithm_demo
  * @description: zip压缩文件
- * @author: WangMengWei
+ * @author: mengw9
  * @create: 2019-09-26 20:48
  **/
 public class ZipDemo {

@@ -11,7 +11,7 @@ import java.net.URL;
 
 /**
  * @description: 发送http请求
- * @author: WangMengWei
+ * @author: mengw9
  * @create: 2019-08-06 09:17
  **/
 public class HttpConnection {

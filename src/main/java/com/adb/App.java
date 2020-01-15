@@ -5,7 +5,7 @@ import java.io.File;
 /**
  * @program: algorithm_demo
  * @description: android手机操作
- * @author: WangMengWei
+ * @author: mengw9
  * @create: 2019-11-19 14:29
  **/
 public class App {

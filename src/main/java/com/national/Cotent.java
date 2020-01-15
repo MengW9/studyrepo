@@ -19,7 +19,7 @@ import java.util.regex.Pattern;
 /**
  * @program: algorithm_demo
  * @description: TODO
- * @author: WangMengWei
+ * @author: mengw9
  * @create: 2019-09-06 23:10
  **/
 public class Cotent {
@@ -140,7 +140,7 @@ public class Cotent {
      * @Description： 取关键字
      * @Param： [text]
      * @return： java.lang.String
-     * @Author： WangMengWei
+     * @Author： mengw9
      * @Date： 2019-09-05
      * @Time： 10:01
      */

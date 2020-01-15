@@ -6,7 +6,7 @@ import java.util.*;
 /**
  * @program: algorithm_demo
  * @description: TODO
- * @author: WangMengWei
+ * @author: mengw9
  * @create: 2019-09-06 23:06
  **/
 public class Depatment {

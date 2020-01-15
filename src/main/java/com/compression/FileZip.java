@@ -7,7 +7,7 @@ import java.util.zip.ZipOutputStream;
 /**
  * @program: algorithm_demo
  * @description: 打zip包
- * @author: WangMengWei
+ * @author: mengw9
  * @create: 2019-09-27 10:23
  **/
 public class FileZip {

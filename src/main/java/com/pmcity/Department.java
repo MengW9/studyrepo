@@ -8,7 +8,7 @@ import java.sql.SQLException;
 /**
  * @program: algorithm_demo
  * @description: 操作数据库
- * @author: WangMengWei
+ * @author: mengw9
  * @create: 2019-09-10 11:09
  **/
 public class Department {
