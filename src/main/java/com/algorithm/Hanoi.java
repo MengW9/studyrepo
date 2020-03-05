@@ -26,6 +26,7 @@ public class Hanoi {
     }
 
     public static void doTowers(int topN, char from, char inter, char to) {
+
         if (topN == 1) {
             System.out.println("Disk 1 from " + from + " to " + to);
         } else {
